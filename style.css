@@ -50,7 +50,7 @@ body{
     transition: 0.3 ease;
 }
 .nav ul li a:hover{
-    color: #ffcc00;
+    color: rgb(255, 204, 0);
     /* text-decoration: underline #ffcc00; */
     /* padding: 10px; */
     border-bottom: 2px solid #ffcc00;
@@ -67,16 +67,21 @@ body{
     height: 50%;
     margin-top: 218px;
     margin-left: 195px;
+
     border-radius: 10px; 
     /* align-items: center;
     text-align: center; */
 
 }
-.mainscreen{
+.mainscreen {
     display: flex;
-    align-items:center;
+    align-items: center;
     color: white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+   box-shadow: 0 0 20px  rgba(255, 204, 0, 0.851); 
 }
+
 .text{
     display: flex;
     align-items: center;
